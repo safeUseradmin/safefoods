@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	 <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+	 <title>Quality, Compliance & Regulatory</title>
+		<link rel="stylesheet" href="css/style.css"/>
+	 <!--script type="text/javascript" src="js/jquery-1.10.2.min.js"></script-->
+	 <script  src="https://code.jquery.com/jquery-1.10.2.js"  integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="  crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="js/smooth-scrolling.js"></script>
+		 <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		 <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+		 <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> 
+		 <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		 <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!----- HEADER START---> 
+<header id="header">
+	<div class="content">
+	<div id="logo"><a href=""> Quality, Compliance & Regulatory </a></div>
+	<nav id="nav">
+	 <ul>
+		 <li><a href="#slide1" class="active" title="Next Section" >About</a></li>
+		 <li><a href="#slide2" title="Next Section">Qualifications</a></li>
+		 <li><a href="#slide3" title="Next Section">Clients</a></li>
+		 <li><a href="#slide4" title="Next Section">Reviews</a></li>
+		 <li><a href="#slide5" title="Next Section">Contact</a></li>
+	 </ul>
+	</nav>
+	</div>
+</header>
+<!----- SLIDES START ---> 
+ <div id="slide1">
+	 <div class="content">
+		<!--div id="christmas_tree"> </div>
+		<div id="snowflakes1"></div>
+		<div id="snowflakes2"></div-->
+		<h1>About </h1>
+		<h1>Qualification </h1>
+		<!--div id="divider"> </div-->
+		<h1>Clients </h1>
+		<h1>Reviews</h1>
+		<h1>Contact</h1>
+		<div id="ribbon"></div>
+		<div id="new_year"> </div>
+	 </div> 
+ </div> 
+ <div id="slide2">
+	<div class="content" >
+	<div class="quotes_container">
+	<img src="img/Beans.jpg" align="left"/> <h4 class="author_name_gray">Aman Malhi </h4>
+	<h3 class="quotes">�A very versatile Quality Professional with vast experience and in-depth knowledge. Very keen observer and details oriented personnel.�</h3>	
+	</div> 
+ </div> 
+ </div> 
+ <div id="slide3">
+ <div class="content">
+ <div class="quotes_container">
+  <img src="img/Birds.jpg" align="left"/> <h4 class="author_name_white">Qualification </h4>
+ <pre class="qualification">
+Bachelors Degree in Medical Microbiology
+Post-Grad Diploma Quality Assurance Mfg. &amp; Mgt
+
+ Certified Plant Milk and Cream Grader by Dairy Farmers of Ontario
+ HTST Pasteurization Training
+ Loblaw Academy-GFTC
+ SQF Practioner-QMI SAI Global
+ FSEP essentials-HACCP Plan - Fulton Food Safety
+ HACCP Plan -- Fulton Food Safety
+ FSEP essentials-Pre- Requisite Program - Fulton Food Safety
+ Regulatory Food Labeling - Fulton Food Safety
+ BRC-British Retail Consortium (GFSI) - SAI Global
+ ISO 9001 - Sheridan College
+ </pre>
+ </div> 
+ </div> 
+ </div> 
+ <div id="slide4">
+ <div class="content">
+ <div class="quotes_container">
+ <img width ="200" src="img/bob.jpg" align="left"/> <h4 class="author_name_gray">Clients </h4>
+ <h3 class="quotes">Christmas doesn't come from a store, maybe Christmas perhaps means a little bit more....</h3>
+ </div> 
+ </div> 
+ </div> 
+ <div id="slide5">
+ <div class="content">
+ <div class="quotes_container">
+ <img width ="200" src="img/dr-seuss.jpg" align="left"/> <h4 class="author_name_white">Bob Hope </h4>
+ <h3 class="quotes">My idea of Christmas, whether old-fashioned or modern, is very simple: loving others. Come to think of it, why do we have to wait for Christmas to do that?</h3>
+ </div> 
+ </div> 
+ </div> 
+ <!----- SLIDES END --->
+</body>
+</html>

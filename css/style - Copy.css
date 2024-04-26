@@ -1,0 +1,180 @@
+body{
+margin: 0;
+padding: 0;
+width: auto;
+}
+h1 {font-family:"Arvo";font-weight:normal;font-size: 40px;text-align: center;color: #232929;margin: auto;padding: 10px 20px;
+    display: block;
+    width: 100%;}
+h2 {font-family:"Arvo";font-weight: normal;font-size: 40px;text-align: center;color: #fff;margin: 0;padding: 0;}
+h3 {z-index: 1;font-family: Oswald;font-weight: normal;font-size: 16px;text-align: center;margin: 5px 0;padding: 10px 20px;position: relative;}
+.center { margin: 0 auto; }
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;  /*Set maximum width to 100% of the viewport */
+    margin: 0 auto; /* Center content horizontally */    
+    padding: 20px 20px; /* Add some padding to the content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */ 
+    width: 90%; 
+    height: auto;/* Set height to 100% minus 100px (adjust as needed) */}
+
+.slide-content {
+        text-align: center; /* Center the text */
+    }
+    
+.slide-content div {
+        margin-bottom: 10px; /* Add some spacing between each h1 element */
+    }
+/*.content h1, .content p {
+        max-width: 800px;  Set maximum width for headings and paragraphs 
+        margin-left: auto;  Align elements to the center 
+        margin-right: auto;
+    }*/
+.clear { clear: both; }
+
+#header {z-index: 1000;width: 100%;background-color: #f8f3ed;background-size: contain; height: 80px;position: fixed;margin-top: 30px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to the start and end of the header */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add padding to provide some space */}
+#nav { z-index: 1000;width: 100%; margin: auto; text-align: center;}
+/*#logo {flex: 1;  Take remaining space  ;text-align: center;}*/
+#logo {display: flex;
+    align-items: center;}
+#logo img {
+    vertical-align: middle; /* Align the image vertically in the middle */
+    max-height: 100px; /* Set the maximum height of the image to fit the header */
+    }
+#logo a{text-decoration: none; float: left; font-size: 20px; margin: auto; color: #232929; font-family:"Wellfleet"; font-weight: bold; flex: 1; }
+/*#logo a{text-decoration: none;font-size: 20px;
+    margin: auto;
+    color: #232929;
+    font-family: "Wellfleet";
+    font-weight: bold;
+    flex: 1;
+}*/
+
+#nav {
+    flex: 1; /* Take remaining space */
+    text-align: right;
+}
+#nav ul{list-style: none;display: flex;margin: 0 ;padding: 0;justify-content: flex-end;} 
+/*#nav li{margin-top: 15px;float: left;padding-left: 21px;} this is original*/
+#nav li {
+    /*display: inline-block; */margin-left: 20px;
+}
+#nav li:first-child {
+    margin-left: 0;
+}
+#nav li a { color: #8e0b2c; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #232929; opacity:1; border-bottom: 2px solid #232929; }
+#nav li a:hover { color: #232929; opacity:1; }
+
+.quotes {z-index: 900;position: relative;font-family: 'Goudy Bookletter 1911', serif;font-weight: normal; color: #404040;font-size: 40px;text-align: left;margin: 50px auto;}
+.qualification {font-family: 'Goudy Bookletter 1911', serif;font-weight: normal;font-size: 20px;text-align: left;margin: 10px auto;}
+.author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 0px; color: #343636; font-size: 50px;} 
+.author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 0px; color: #343636; font-size: 50px;
+    flex: 100%; /* Ensure the header takes the full width */
+    text-align: center; /* Center align the header */
+    margin-bottom: 20px; /* Add some space between the header and testimonial boxes */} 
+.quotes_container { width: 100%; margin: 0 auto;text-align: center;padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
+    justify-content: center; /* Center-align items horizontally */}
+.quotes_container2 {  
+    top: 50%; 
+    box-shadow: 0 0 5px 0; 
+    background: inherit; 
+    backdrop-filter: blur(10px); 
+    margin: 0 auto; 
+    text-align: center;
+    padding: 50px; /* Adjust padding as needed */
+    width: 90%; /* Set width to 90% of the container */
+    max-width: 1200px; /* Set a maximum width if needed */
+}
+
+#christmas_tree { background: url('../img/christmas-tree.png')no-repeat; width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px;}
+#divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
+#ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto; display: block; position: relative; top: -38px; }
+#snowflakes1 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -54px; left: -102px; }
+#snowflakes2 { background: url('../img/snowflakes.png')no-repeat; width: 24px; height: 21px; margin: 0 auto; display: block; position: relative; bottom: -33px; right: -100px; }
+
+
+#slide1{background:url('../img/page3.jpg') 100% 0 no-repeat fixed;color: #b3b3b3;height: auto;margin: 0;padding: 200px 20px ;background-size: cover;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    box-sizing: border-box; /* Include padding in the total width */
+    display: block;
+    text-align: center; /* Center align the text */}
+#slide2{background-color: #f8f3ed;color: #b3b3b3;height: auto;margin: 0 auto;overflow: hidden;padding: 50px 50px;}
+#slide3{background: url(../img/page5.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    min-height: 950px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-size: cover;}
+#slide4{background-color: #f8f3ed;color: #232929;height: auto;padding: 35px 0px 200px 100px;position: relative;}
+#slide5{background: url(../img/safefoods247.png) 50% 0 no-repeat fixed;color: #fff;height: 950px;margin: 0 auto;padding: 10px 0 0 0;background-size: cover;}
+
+.testimonial-box {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.testimonial-content p {
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+}
+.client {
+    /*text-align: center;*/
+    flex: 0 0 auto; /* Allow flex items to shrink but not grow */
+    width: 200px; /* Set a fixed width for the client container */
+    height: auto; /* Set a fixed height for all client images */
+    overflow: hidden; /* Hide any overflow if images exceed the height */
+    margin-right: 20px; /* Add space between clients */
+}
+#client-container {
+    display: flex;              /* Aligns children (client divs) in a row */
+    overflow-x: auto;           /* Allows horizontal scrolling */
+    white-space: nowrap;        /* Prevents wrapping of elements */
+}
+.client-images {
+    /*align-items: center;*/
+    /*flex-wrap: wrap;  Allow wrapping to multiple lines if needed */
+    display: flex;
+    flex-wrap: nowrap; /* Ensure clients stay in a single line */
+    overflow-x: auto; /* Add horizontal scroll if necessary */
+    justify-content: flex-start; /* Align items to the start of the container */
+    margin-top: 20px; /* Adjust margin as needed */
+}
+.client img {
+    /*max-width: 100%;  Ensure images don't exceed the width of their container */
+    width: 350px;
+    height: 250px; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+.client p {
+    margin-top: 10px; /* Adjust spacing between image and label */
+    font-size: 14px; /* Adjust font size of the label */
+    text-align: center; /* Center the label text */
+    width: 100%; /* Ensure the label takes the full width of the container */
+}
+.navigation-arrows {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.navigation-arrows span {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 10px;
+}

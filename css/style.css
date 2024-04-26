@@ -1,0 +1,176 @@
+body{
+margin: 0;
+padding: 0;
+width: auto;
+}
+h1 {font-family:"Arvo";font-weight:normal;font-size: 40px;text-align: center;color: #232929;margin: auto;padding: 10px 20px;
+    display: block;
+    width: 100%;}
+h2 {font-family:"Arvo";font-weight: normal;font-size: 40px;text-align: center;color: #fff;margin: 0;padding: 0;}
+.client p {font-family:"Arvo";font-weight: bold;font-size: 40px;text-align: center;color: #232929;margin: 0;padding: 0;}
+h3 {z-index: 1;font-family: Oswald;font-weight: normal;font-size: 16px;text-align: center;margin: 5px 0;padding: 10px 20px;position: relative;}
+.center { margin: 0 auto; }
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;  /*Set maximum width to 100% of the viewport */
+    margin: 0 auto; /* Center content horizontally */    
+    padding: 20px 20px; /* Add some padding to the content */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */ 
+    width: 90%; 
+    height: auto;/* Set height to 100% minus 100px (adjust as needed) */}
+
+.slide-content {
+        text-align: center; /* Center the text */
+    }
+    
+.slide-content div {
+        margin-bottom: 10px; /* Add some spacing between each h1 element */
+    }
+.clear { clear: both; }
+
+#header {z-index: 1000;width: 100%;background-color: #f8f3ed;background-size: contain; height: 80px;position: fixed;margin-top: 30px;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Align items to the start and end of the header */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Add padding to provide some space */}
+#nav { z-index: 1000;width: 100%; margin: auto; text-align: center;}
+/*#logo {flex: 1;  Take remaining space  ;text-align: center;}*/
+#logo {display: flex;
+    align-items: center;}
+#logo img {
+    vertical-align: middle; /* Align the image vertically in the middle */
+    max-height: 100px; /* Set the maximum height of the image to fit the header */
+    }
+#logo a{text-decoration: none; float: left; font-size: 20px; margin: auto; color: #232929; font-family:"Wellfleet"; font-weight: bold; flex: 1; }
+
+#nav {
+    flex: 1; /* Take remaining space */
+    text-align: right;
+}
+#nav ul{list-style: none;display: flex;margin: 0 ;padding: 0;justify-content: flex-end;} 
+/*#nav li{margin-top: 15px;float: left;padding-left: 21px;} this is original*/
+#nav li {
+    /*display: inline-block; */margin-left: 20px;
+}
+#nav li:first-child {
+    margin-left: 0;
+}
+#nav li a { color: #8e0b2c; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a.active { color: #232929; opacity:1; border-bottom: 2px solid #232929; }
+#nav li a:hover { color: #232929; opacity:1; }
+
+.quotes {z-index: 900;position: relative;font-family: 'Goudy Bookletter 1911', serif;font-weight: normal; color: #404040;font-size: 40px;text-align: center;margin: 50px auto;}
+.qualification {font-family: 'Goudy Bookletter 1911', serif;font-weight: normal;font-size: 20px;text-align: left;margin: 10px auto;}
+.author_name_white { font-family:"Wellfleet"; margin: 70px 0 0 0px; color: #343636; font-size: 50px;} 
+.author_name_gray { font-family:"Wellfleet"; margin: 70px 0 0 0px; color: #343636; font-size: 50px;
+    flex: 100%; /* Ensure the header takes the full width */
+    text-align: center; /* Center align the header */
+    margin-bottom: 20px; /* Add some space between the header and testimonial boxes */} 
+.quotes_container { width: 100%; margin: 0 auto;text-align: center;padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to multiple lines if needed */
+    justify-content: center; /* Center-align items horizontally */}
+.quotes_container2 {  
+    top: 50%; 
+    box-shadow: 0 0 5px 0; 
+    background: inherit; 
+    backdrop-filter: blur(10px); 
+    margin: 0 auto; 
+    text-align: center;
+    padding: 50px; /* Adjust padding as needed */
+    width: 90%; /* Set width to 90% of the container */
+    max-width: 1200px; /* Set a maximum width if needed */
+}
+
+#slide1{background:url('../img/page3.jpg') 100% 0 no-repeat fixed;color: #b3b3b3;height: auto;margin: 0;padding: 200px 20px ;background-size: cover;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    box-sizing: border-box; /* Include padding in the total width */
+    display: block;
+    text-align: center; /* Center align the text */}
+#slide2{background-color: #f8f3ed;color: #b3b3b3;height: auto;margin: 0 auto;overflow: hidden;padding: 50px 50px;}
+#slide3{background: url(../img/page5.jpg) 50% 0 no-repeat fixed;
+    color: #fff;
+    min-height: 950px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-size: cover;}
+#slide4{background-color: #f8f3ed;color: #232929;height: auto;padding: 35px 0px 200px 100px;position: relative;}
+#slide5{background: url(../img/safefoods247.png) 50% 0 no-repeat fixed;color: #fff;height: 950px;margin: 0 auto;padding: 10px 0 0 0;background-size: cover;}
+
+.testimonial-box {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+}
+
+.testimonial-content p {
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+}
+.client {
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: column; /* Ensure the children stack vertically */
+    align-items: center; /* Center align items horizontally */
+    flex: 0 0 auto; /* Allow flex items to shrink but not grow */
+    width: 350px; /* Set a fixed width for the client container */
+    height: 250px; /* Set a fixed height for all client images */
+    /*overflow: hidden;  Hide any overflow if images exceed the height */
+    margin-right: 20px; /* Add space between clients */
+    position: relative; /* Add position relative to adjust image position */
+    padding-bottom: 40px; /* Adjust as needed */    
+}
+.client-container {
+    /*align-items: center;*/
+    /*flex-wrap: wrap;  Allow wrapping to multiple lines if needed */
+    display: flex;
+    flex-wrap: nowrap; /* Ensure clients stay in a single line */
+    overflow-x: auto; /* Add horizontal scroll if necessary */
+    justify-content: flex-start; /* Align items to the start of the container */
+    margin-top: 20px; /* Adjust margin as needed */
+    position: relative;
+}
+.client img {
+    /*max-width: 100%;  Ensure images don't exceed the width of their container */
+    width: 100%;
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    position: relative; /* Position the image absolutely within the container */
+    top: 0; /* Position the image at the top */
+    left: 0; /* Position the image at the left */
+}
+.client p {
+  /*  position: absolute;*/
+  /*  bottom: 0;  Adjust as needed */
+  /*  left: 0;  Adjust as needed */
+    /* Other styles */
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    right: 0; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    margin-top: 200px; /* Adjust spacing between image and label */
+    font-size: 14px; /* Adjust font size of the label */
+    text-align: center; /* Center the label text */
+    width: auto; /* Ensure the label takes the full width of the container */
+}
+
+.navigation-arrows {
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.navigation-arrows span {
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 10px;
+}
