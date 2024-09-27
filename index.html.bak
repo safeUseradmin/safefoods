@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-	 <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" http-equiv="Content-Type" content="text/html" charset="utf-8" />
 	 <title>Quality, Compliance & Regulatory</title>
 		<link rel="stylesheet" href="css/style.css"/>
 	 <!--script type="text/javascript" src="js/jquery-1.10.2.min.js"></script-->
@@ -17,13 +17,13 @@
 <!----- HEADER START---> 
 <header id="header">
 	<div class="content">
-	<div id="logo"><a href=""> Quality, Compliance & Regulatory </a></div>
+	<div id="logo"><img src="img/safefoods247Logo.png" align="left"/><a href=""> Quality, Compliance & Regulatory </a></div>
 	<nav id="nav">
 	 <ul>
-		 <li><a href="#slide1" class="active" title="Next Section" >About</a></li>
-		 <li><a href="#slide2" title="Next Section">Qualifications</a></li>
+		 <li><a href="#slide1" class="active" title="Next Section" >Our Services</a></li>
+		 <li><a href="#slide2" title="Next Section">About</a></li>
 		 <li><a href="#slide3" title="Next Section">Clients</a></li>
-		 <li><a href="#slide4" title="Next Section">Reviews</a></li>
+		 <li><a href="#slide4" title="Next Section">Testimonials</a></li>
 		 <li><a href="#slide5" title="Next Section">Contact</a></li>
 	 </ul>
 	</nav>
@@ -32,65 +32,105 @@
 <!----- SLIDES START ---> 
  <div id="slide1">
 	 <div class="content">
-		<!--div id="christmas_tree"> </div>
-		<div id="snowflakes1"></div>
-		<div id="snowflakes2"></div-->
-		<h1>About </h1>
-		<h1>Qualification </h1>
-		<!--div id="divider"> </div-->
-		<h1>Clients </h1>
-		<h1>Reviews</h1>
-		<h1>Contact</h1>
-		<div id="ribbon"></div>
-		<div id="new_year"> </div>
+		<div class="slide-content">
+		<!--div id="christmas_tree"> </div-->
+		<h1>HACCP </h1>
+		<h1>GFSI-BRC,SQF,FSCC22000,GMP </h1>
+		<h1>Quality Management Programs </h1>
+		<h1>ISO 9001 2015 </h1>
+		<h1>Training</h1>
+		<h1>Regulatory Services</h1>
+		<h1>Audits </h1>
+		<h1>Licensing</h1>
+		<h1>Imports/Exports</h1>
+		<!--div id="ribbon"></div>
+		<div id="new_year"> </div-->
+		</div>
 	 </div> 
  </div> 
  <div id="slide2">
 	<div class="content" >
 	<div class="quotes_container">
-	<img src="img/Beans.jpg" align="left"/> <h4 class="author_name_gray">Aman Malhi </h4>
-	<h3 class="quotes">�A very versatile Quality Professional with vast experience and in-depth knowledge. Very keen observer and details oriented personnel.�</h3>	
+	<!--img src="..//img/Beans.jpg" align="left"/--> <h4 class="author_name_gray">About </h4>
+	<h3 class="quotes">
+		With 15 years of dedicated expertise, we are the cornerstone of food safety and quality management. 
+		Our commitment to excellence ensures your peace of mind. From regulatory compliance to industry-leading practices, 
+		we've got you covered. Let us safeguard your brand and reputation with precision and care.
+		 </h3>
 	</div> 
  </div> 
  </div> 
  <div id="slide3">
- <div class="content">
- <div class="quotes_container">
-  <img src="img/Birds.jpg" align="left"/> <h4 class="author_name_white">Qualification </h4>
- <pre class="qualification">
-Bachelors Degree in Medical Microbiology
-Post-Grad Diploma Quality Assurance Mfg. &amp; Mgt
-
- Certified Plant Milk and Cream Grader by Dairy Farmers of Ontario
- HTST Pasteurization Training
- Loblaw Academy-GFTC
- SQF Practioner-QMI SAI Global
- FSEP essentials-HACCP Plan - Fulton Food Safety
- HACCP Plan -- Fulton Food Safety
- FSEP essentials-Pre- Requisite Program - Fulton Food Safety
- Regulatory Food Labeling - Fulton Food Safety
- BRC-British Retail Consortium (GFSI) - SAI Global
- ISO 9001 - Sheridan College
- </pre>
- </div> 
- </div> 
+	<div class="content">
+		<div class="quotes_container2">
+		<h4 class="author_name_white">Clients </h4>
+			<div class="client-container">
+				<div class="client">
+					<img src="img/dairy.jpg" alt="Industry 1">
+                    <p>Dairy</p>
+				</div>
+				<div class="client">
+                    <img src="img/meat.jpg" alt="Industry 2">
+                    <p>Meat</p>
+                </div>
+				<div class="client">
+                    <img src="img/sauces.jpg" alt="Industry 3">
+                    <p>Sauces & Condiments</p>
+                </div>
+				<div class="client">
+                    <img src="img/frozen.jpg" alt="Industry 4">
+                    <p>Frozen products</p>
+                </div>
+				<div class="client">
+                    <img src="img/readytoeat.jpg" alt="Industry 5">
+                    <p>Ready to Eat</p>
+                </div>
+				<div class="client">
+                    <img src="img/produce.jpg" alt="Industry 6">
+                    <p>Produce</p>
+                </div>
+				<div class="client">
+                    <img src="img/bread.jpg" alt="Industry 7">
+                    <p>Bakery</p>
+                </div>
+				<!-- Add more client divs as needed -->
+			</div>
+			<div class="navigation-arrows">
+                <span class="prev-client">&lt;</span>
+                <span class="next-client">&gt;</span>
+            </div>
+		</div> 
+	</div> 
  </div> 
  <div id="slide4">
- <div class="content">
- <div class="quotes_container">
- <img width ="200" src="img/bob.jpg" align="left"/> <h4 class="author_name_gray">Clients </h4>
- <h3 class="quotes">Christmas doesn't come from a store, maybe Christmas perhaps means a little bit more....</h3>
- </div> 
- </div> 
+	<div class="content">
+		<div class="quotes_container">
+			<!--img width ="200" src="img/bob.jpg" align="left"/--> <h4 class="author_name_gray">Testimonials</h4>
+			<div class="testimonial-box">
+					<p>This is a testimonial from a client. It can contain any text that describes their experience.</p>
+				<div class="testimonial-author">
+					<p>John Doe</p>
+					<p>CEO, Company Name</p>
+				</div>
+			</div>
+			<div class="testimonial-box">
+					<p>Another testimonial from a different client. They might share their thoughts about your services or products.</p>
+				<div class="testimonial-author">
+					<p>Jane Smith</p>
+					<p>Marketing Manager, Company Name</p>
+				</div>
+			</div>
+		</div> 
+	</div> 
  </div> 
  <div id="slide5">
  <div class="content">
- <div class="quotes_container">
- <img width ="200" src="img/dr-seuss.jpg" align="left"/> <h4 class="author_name_white">Bob Hope </h4>
- <h3 class="quotes">My idea of Christmas, whether old-fashioned or modern, is very simple: loving others. Come to think of it, why do we have to wait for Christmas to do that?</h3>
+ <div class="quotes_container2">
+ <h4 class="author_name_white">Contact </h4>
+ <h3 class="quotes">Please email us at <br> safefood247@gmail.com</h3>
  </div> 
  </div> 
- </div> 
+ </div>
  <!----- SLIDES END --->
 </body>
 </html>
